@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+     *{margin:0;padding:0;}
+    .top{
+        background: #333;
+      color: #b0b0b0;
+      height:40px;
+      width:100%;
+      line-height: 39px;
+      font-size: 12px;
+    }
+    .toubu{
+      display: flex;
+      flex-direction:row;
+      justify-content:space-between;
+    
+    }
+
+    .container{
+        margin:0 auto;
+      width:1230px;
+    }
+    .gang{
+        background-color: #333;
+        padding:0 5px 0 5px;
+
+    }
+    .right{
+        
+        display: flex;
+        flex-direction:row;
+    }
+    .left{
+        
+        display: flex;
+        flex-direction:row;
+    }
+   
+    
+    .buycar{
+        margin-left: 30px;
+        width:120px;
+        background-color: #424242;;
+        text-align: center;
+        
+       
+    }
+  
+    .buycar img{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+       
+     
+    }
+
+    .dada{
+       background-color: #f5f5f5;;
+   }
+    .top2{
+        height:105px;
+        width: 100%;
+        background: white;
+        line-height: 105px;
+    }
+    .neibu{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .neibu img{
+        position: relative;
+        top:20px;
+        margin-right: 52px;
+    }
+    .lleft{
+        display: flex;
+        flex-direction: row;
+    }
+    .lleft p{
+        padding: 0 10px;
+       
+    }
+  .search{
+        width: 248px;
+        height: 46px;
+        border:1px solid #e0e0e0;
+        font-size:11px;
+        color:#a9a9a9;
+        margin-right: -5px;
+        outline:0;
+    }
+    .xiaos{
+        width: 46px;
+        height: 46px;
+        border:1px  solid #e0e0e0;
+        background: none;
+        outline:0;
+    }
+    .neirong{
+      
+        width: 1230px;
+       margin: 0 auto;
+       height: 170px;
+    }
+    .imgg {
+        height: 110px;
+     
+      
+       background: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3cba013aa492551729f3a42e1668b9d9.jpg') no-repeat 50% 0;
+
+    }
+ 
+    .timee{
+       font-weight: bold;
+   }
+    
+   .goods{
+       margin: 0 auto;
+       margin-top: 5px;
+       width: 1230px;
+       
+     
+       
+   }
+   .caonima{
+    display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       margin-left: -10px;
+       margin-right: -5px;
+   }
+  .detail{
+    margin-left: 18px;
+    margin-top: 28px;
+    
+    }
+   .detail span{
+       display: flex;
+       flex-direction: column;
+       
+       justify-content: center;
+
+   } 
+   .goods1 img{
+       width: 190px;
+       height: 190px;
+   }
+   .goods1{
+       
+       width: 400px;
+       height: 190px;
+       display: flex;
+       flex-direction: row;
+       background-color: #fff;
+       
+       margin: 15px 5px 0 10px;
+      
+   }
+   .desc{
+       font-size: 10px;
+       padding-top: 3px;
+       color: #b0b0b0;
+   }
+   .price{
+       color: red;
+       padding-top: 25px;
+       padding-bottom: 20px;
+       font-weight: lighter;
+   }
+   .tixing{
+       width: 120px;
+       height: 30px;
+       background: orange;
+       color: white ;
+       text-align: center;
+       
+   }
+   .renshu{
+    font-size: 10px;
+       padding-top: 3px;
+       color: #b0b0b0;
+   }
+  .guize{
+      width: 1230px;
+      margin: 0 auto;
+      padding-top: 115px;
+      padding-bottom: 40px;
+      font-size: 11px;
+      color:#b0b0b0;;
+  }
+  .zonghe{
+      width: 1230px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+  }
+  .shouhou{
+      padding-right: 100px;
+      font-size: 14px;
+  } 
+  .shu{
+      height: 50px;
+      width: 1px;
+  }
+.shjian div{
+        width: 245px;
+  
+    }
+    .ooh{
+        position: relative;
+        top: 110px;
+    }
+    .shjian{
+      
+        width: 1230px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        background: #333;
+        height: 60px;
+       
+        color: white;
+        text-align: center;
+    }
+  .hah {
+  line-height: 60px;
+  }
+  .hah1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  .jll{
+    line-height: 60px;
+    font-weight: bold;
+  }
+  .haoe{
+   margin-top: 10px;
+    text-align:left;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .bangbang{
+      position: fixed;
+      top:0;
+      
+  }
+   
+    </style>
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+    <div class="toubu">
+        <div class="right">
+            <p>小米商城</p>
+            <p class="gang">|</p>
+            <p>MIUI</p>
+            <p class="gang">|</p>
+            <p>云服务</p>
+            <p class="gang">|</p>
+            <p>金融</p>
+            <p class="gang">|</p>
+            <p>小爱开放平台</p>
+            <p class="gang">|</p>
+            <p>企业团购</p>
+            <p class="gang">|</p>
+            <p>企业团购</p>
+            <p class="gang">|</p>
+            <p>Select Region</p>
+        </div>
+        <div class="left">
+            <p>登录</p>
+            <p class="gang">|</p>
+            <p>注册</p>
+            <p class="gang">|</p>
+            <p>消息通知</p>
+           
+            <p class="buycar"> <span class="iconfont">&#xe600;</span>购物车(0)</p>
+           
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="top2">
+        <div class="container">
+<div class="neibu">
+    <div class="lleft">
+        <a><img src="./images/logo-footer.png" alt=""></a>
+        <p>全部手机分类</p>
+        <p>小米手机</p>
+        <p>红米</p>
+        <p>电视</p>
+        <p>笔记本</p>
+        <p>家电</p>
+        <p>新品</p>
+        <p>路由器</p>
+        <p>硬件</p>
+        <p>服务</p>
+        <p>社区</p>
+    </div>
+    <div class="rright">
+        <input type="search" class="search" value="">
+        <input type="submit" class="xiaos">
+       
+    </div>
+</div>
+</div>
+</div>
+<div class="dada">
+<div class="neirong">
+   
+        <div class="imgg"> 
+         <div id="nini" class="ooh">
+                <div  class="shjian" >
+                        <div  class="hah1 dudu" style="background:red;">
+                          <p class="jll">00:00<p>   
+                               <p class="haoe">
+                                   <span>抢购中<br>距离结束20:23:00</span> 
+                                 </p>   
+                                
+                                </div>
+                       
+                        <div class="hah dudu"> <span class="timee">10:00</span>  明天开始</div>
+                        <div class="hah dudu"> <span class="timee">14:00</span>  明天开始</div>
+                        <div class="hah dudu"> <span class="timee">20:00</span>  明天开始</div>
+                    </div>
+                </div>
+        </div>
+   
+
+       
+  
+</div>
+
+<div class="goods">
+
+<div class="caonima">
+
+<div class="goods1">
+    <img src="./images/goods1.jpg" alt="">
+     <div class="detail">
+            <span class="title" >小米电视机</span> 
+            <span class="desc" >好看的电视，贼好看哈哈</span> 
+            <span class="price">1399.00元</span>
+            <span class="tixing">提醒我</span>
+            <span class="renshu">已有58人设置微提醒</span>
+     </div>
+
+</div>
+
+<div class="goods1">
+        <img src="./images/goods1.jpg" alt="">
+         <div class="detail">
+                <span class="title" >小米电视机</span> 
+                <span class="desc" >好看的电视，贼好看哈哈</span> 
+                <span class="price">1399.00元</span>
+                <span class="tixing">提醒我</span>
+                <span class="renshu">已有58人设置微提醒</span>
+         </div>
+    
+    </div>
+    <div class="goods1">
+            <img src="./images/goods1.jpg" alt="">
+             <div class="detail">
+                    <span class="title" >小米电视机</span> 
+                    <span class="desc" >好看的电视，贼好看哈哈</span> 
+                    <span class="price">1399.00元</span>
+                    <span class="tixing">提醒我</span>
+                    <span class="renshu">已有58人设置微提醒</span>
+             </div>
+        
+        </div>
+        <div class="goods1">
+                <img src="./images/goods1.jpg" alt="">
+                 <div class="detail">
+                        <span class="title" >小米电视机</span> 
+                        <span class="desc" >好看的电视，贼好看哈哈</span> 
+                        <span class="price">1399.00元</span>
+                        <span class="tixing">提醒我</span>
+                        <span class="renshu">已有58人设置微提醒</span>
+                 </div>
+            
+            </div>        
+
+</div>
+<div class="caonima">
+
+        <div class="goods1">
+            <img src="./images/goods1.jpg" alt="">
+             <div class="detail">
+                    <span class="title" >小米电视机</span> 
+                    <span class="desc" >好看的电视，贼好看哈哈</span> 
+                    <span class="price">1399.00元</span>
+                    <span class="tixing">提醒我</span>
+                    <span class="renshu">已有58人设置微提醒</span>
+             </div>
+        
+        </div>
+        
+        <div class="goods1">
+                <img src="./images/goods1.jpg" alt="">
+                 <div class="detail">
+                        <span class="title" >小米电视机</span> 
+                        <span class="desc" >好看的电视，贼好看哈哈</span> 
+                        <span class="price">1399.00元</span>
+                        <span class="tixing">提醒我</span>
+                        <span class="renshu">已有58人设置微提醒</span>
+                 </div>
+            
+            </div>
+            <div class="goods1">
+                    <img src="./images/goods1.jpg" alt="">
+                     <div class="detail">
+                            <span class="title" >小米电视机</span> 
+                            <span class="desc" >好看的电视，贼好看哈哈</span> 
+                            <span class="price">1399.00元</span>
+                            <span class="tixing">提醒我</span>
+                            <span class="renshu">已有58人设置微提醒</span>
+                     </div>
+                
+                </div>
+                <div class="goods1">
+                        <img src="./images/goods1.jpg" alt="">
+                         <div class="detail">
+                                <span class="title" >小米电视机</span> 
+                                <span class="desc" >好看的电视，贼好看哈哈</span> 
+                                <span class="price">1399.00元</span>
+                                <span class="tixing">提醒我</span>
+                                <span class="renshu">已有58人设置微提醒</span>
+                         </div>
+                    
+                    </div>        
+        
+</div>
+<div class="caonima">
+
+        <div class="goods1">
+            <img src="./images/goods1.jpg" alt="">
+             <div class="detail">
+                    <span class="title" >小米电视机</span> 
+                    <span class="desc" >好看的电视，贼好看哈哈</span> 
+                    <span class="price">1399.00元</span>
+                    <span class="tixing">提醒我</span>
+                    <span class="renshu">已有58人设置微提醒</span>
+             </div>
+        
+        </div>
+        
+        <div class="goods1">
+                <img src="./images/goods1.jpg" alt="">
+                 <div class="detail">
+                        <span class="title" >小米电视机</span> 
+                        <span class="desc" >好看的电视，贼好看哈哈</span> 
+                        <span class="price">1399.00元</span>
+                        <span class="tixing">提醒我</span>
+                        <span class="renshu">已有58人设置微提醒</span>
+                 </div>
+            
+            </div>
+            <div class="goods1">
+                    <img src="./images/goods1.jpg" alt="">
+                     <div class="detail">
+                            <span class="title" >小米电视机</span> 
+                            <span class="desc" >好看的电视，贼好看哈哈</span> 
+                            <span class="price">1399.00元</span>
+                            <span class="tixing">提醒我</span>
+                            <span class="renshu">已有58人设置微提醒</span>
+                     </div>
+                
+                </div>
+                <div class="goods1">
+                        <img src="./images/goods1.jpg" alt="">
+                         <div class="detail">
+                                <span class="title" >小米电视机</span> 
+                                <span class="desc" >好看的电视，贼好看哈哈</span> 
+                                <span class="price">1399.00元</span>
+                                <span class="tixing">提醒我</span>
+                                <span class="renshu">已有58人设置微提醒</span>
+                         </div>
+                    
+                    </div>        
+        
+</div>
+
+</div>
+
+<div class="guize">
+    <p>*小米秒杀活动规则：</p>
+    <p> 1.秒杀商品是否参加活动，以订单结算页显示为准，活动包括但不限于优惠券、赠品、满减、满赠等；</p>
+    <p>  2.秒杀商品数量有限，活动以下单支付成功为准，请加入购物车后尽快下单支付；</p>
+     <p>  3.秒杀价不含运费，最终以订单结算页价格为准。</p>
+     <p>  温馨提示：因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系小米客服，以便我们及时补正。</p>
+</div>
+
+</div>
+
+<div class="zonghe">
+        <div class="shouhou">
+
+                <p>帮助中心</p>
+                <p>账户管理</p>
+                <p>购物指南</p>
+                <p>订单操作</p>
+            </div>
+
+            <div class="shouhou">
+
+                    <p>帮助中心</p>
+                    <p>账户管理</p>
+                    <p>购物指南</p>
+                    <p>订单操作</p>
+                </div>
+
+                <div class="shouhou">
+
+                        <p>帮助中心</p>
+                        <p>账户管理</p>
+                        <p>购物指南</p>
+                        <p>订单操作</p>
+                    </div>
+
+                    <div class="shouhou">
+
+                            <p>帮助中心</p>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </div>
+
+                        <div class="shouhou">
+
+                                <p>帮助中心</p>
+                                <p>账户管理</p>
+                                <p>购物指南</p>
+                                <p>订单操作</p>
+                            </div>
+
+                            <div class="shouhou">
+
+                                    <p>帮助中心</p>
+                                    <p>账户管理</p>
+                                    <p>购物指南</p>
+                                    <p>订单操作</p>
+                                </div> 
+
+                        <div class="shu"></div>
+</div>
+
+
+
+<div style="height:5000px;"></div>
+<script src="xiami.js" type="text/javascript"></script>
+</body>
+</html>
